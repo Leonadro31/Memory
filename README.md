@@ -34,3 +34,6 @@ Scans the whole targeted process and returns a vector containing the addresses o
 
 - **size_t delete_strings(strings_to_remove):**   
 Scans the whole targeted process and removes all the strings specified. Returns the count of how many strings the function removed from the targeted process. The strings_to_remove parameter is a reference to a vector of std::string.
+
+- **bool set_debug_privilege():**    
+Sets SeDebugPrivilege.
